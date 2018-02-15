@@ -1,3 +1,6 @@
+#unmount /dev/sda abychom se vyhnuli blbejm kecum
+d-i preseed/early_command string umount /media
+
 # regional setting
 d-i debian-installer/language                               string      en_US:en
 d-i debian-installer/country                                string      US
